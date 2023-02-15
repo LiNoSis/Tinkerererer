@@ -1,0 +1,63 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    border: 1px solid black;
+}
+.left{
+    border: 1px solid black;
+}
+
+.burger{
+
+}
+
+.ytbutton{
+
+}
+
+
+.center{
+    border: 1px solid black;
+}
+.right{
+    border: 1px solid black;
+}
+
+
+/*Хеадер и его части сверху контэйнер и его части снизу*/
+
+
+.container{
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    border: 1px solid black;
+}
+
+
+.menuleft{
+    display: grid;
+    border: 1px solid black;
+}
+
+
+/*Меню в левой части */
+
+
+
+.maincon{
+    display: grid;
+    grid-template-rows: 30px 1fr;
+}
+/* контейнер держащий и feed b видосы*/
+.ytfeed{
+    border: 1px solid black;
+}
+
+/*рекомендации */
+.vidcontainer{
+    border: 1px solid black;
+}
+
+
+/*Контейнер видосов */
