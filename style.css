@@ -2,10 +2,11 @@
     display: flex;
     justify-content: space-between;
     justify-items: center;
-    border: 1px solid black;
 }
 .left{
-    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .burger{
@@ -18,12 +19,79 @@
 
 
 .center{
-    border: 1px solid black;
+
 }
-.right{
-    border: 1px solid black;
+.srcborder{
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+    border-radius: 20px;
+    margin: 5px;
 }
 
+
+.searchbox{
+    width: 500px;
+    border: 1px transparent;
+    background: transparent;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.searchbuttn{
+    pointer-events: none;
+    display: block;
+    width: 60px;
+    height: 35px;
+    border: transparent;
+    border-radius: 0px 20px 20px 0px;
+}
+.searchbuttn:hover{
+    background: #ddd;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.dotdotdot{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px transparent;
+    border-radius: 40px;
+    padding: 3px;
+    background: transparent;
+}
+
+.dotinner{
+    pointer-events: none;
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+
+.dotdotdot:hover{
+    background: #ddd;
+}
+
+.account{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 20px;
+    background: transparent;
+}
+.accinner{
+    pointer-events: none;
+    display: block;
+    width: 24px;
+    height: 24px;
+}
 
 /*Хеадер и его части сверху контэйнер и его части снизу*/
 
